@@ -33,7 +33,8 @@ libraryDependencies ++= Seq(
   "org.webjars" % "underscorejs" % "1.9.0",
   "org.webjars" % "dustjs-linkedin" % "2.7.2",
   "org.webjars" % "octicons" % "4.3.0",
-  "org.apache.curator" % "curator-framework" % "2.12.0" exclude("org.apache.zookeeper","zookeeper") exclude("log4j","log4j") exclude("org.slf4j", "slf4j-log4j12") force(),  "org.apache.curator" % "curator-recipes" % "2.12.0" exclude("log4j","log4j") exclude("org.slf4j", "slf4j-log4j12") force(),
+  "org.apache.curator" % "curator-framework" % "2.12.0" exclude("org.apache.zookeeper","zookeeper") exclude("log4j","log4j") exclude("org.slf4j", "slf4j-log4j12") force(), 
+  "org.apache.curator" % "curator-recipes" % "2.12.0" exclude("log4j","log4j") exclude("org.slf4j", "slf4j-log4j12") force(),
   "org.apache.zookeeper" % "zookeeper" % "3.4.14",
 
   "org.json4s" %% "json4s-jackson" % "3.6.5",
